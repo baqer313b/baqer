@@ -499,9 +499,7 @@ def setting():
 	passwrd()
 
 def passwrd():
-    print('  ') 
-	print(""" \033[1;54mالمبرمج نـمـࢪود  | @M_T_F """) 
-	print('  ') 
+   
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
